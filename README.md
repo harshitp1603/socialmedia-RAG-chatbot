@@ -39,10 +39,6 @@ AI-powered Social Media Video Analysis Platform that can analyze YouTube Videos 
 * Semantic search using embeddings
 * Retrieval-Augmented Generation (RAG)
 
----
-
-#  Tech Stack
-
 ## Backend
 
 * FastAPI
