@@ -109,51 +109,6 @@ Answer
 
 ---
 
-# Project Structure
-
-```text
-social-video-rag/
-
-├── backend/
-│
-│   ├── app.py
-│   ├── requirements.txt
-│
-│   ├── routers/
-│   │   ├── chat.py
-│   │   └── ingest.py
-│
-│   ├── services/
-│   │   ├── comparisonservices.py
-│   │   ├── instagramservices.py
-│   │   ├── llmservice.py
-│   │   ├── memoryservice.py
-│   │   ├── ragservices.py
-│   │   ├── streamservice.py
-│   │   ├── transcriptionservice.py
-│   │   ├── vectorstore.py
-│   │   └── youtubeservices.py
-│
-│   └── data/
-│       └── videos.json
-│
-└── frontend/
-    │
-    ├── app/
-    │   ├── globals.css
-    │   ├── layout.tsx
-    │   ├── page.tsx
-    │   └── icon.jpg
-    │
-    └── components/
-        ├── uploadform.tsx
-        ├── chatbox.tsx
-        ├── comparebox.tsx
-        └── memorybox.tsx
-```
-
----
-
 # Setup Instructions
 
 ## 1. Clone Repository
