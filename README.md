@@ -1,6 +1,6 @@
 #  Social Video Chatbot
 
-AI-powered Social Media Video Analysis Platform that can analyze **YouTube Videos** and **Instagram Reels**, answer questions using **RAG (Retrieval-Augmented Generation)**, compare multiple videos, and maintain conversation memory.
+AI-powered Social Media Video Analysis Platform that can analyze YouTube Videos and Instagram Reels, answer questions using RAG (Retrieval-Augmented Generation), compare multiple videos, and maintain conversation memory.
 
 ##  Features
 
@@ -62,36 +62,6 @@ AI-powered Social Media Video Analysis Platform that can analyze **YouTube Video
 
 ---
 
-#  Architecture
-
-```text
-User
- │
- ▼
-Frontend (Next.js)
- │
- ▼
-FastAPI Backend
- │
- ├── YouTube / Instagram Ingestion
- │
- ├── Whisper Transcription
- │
- ├── Chunking
- │
- ├── ChromaDB Storage
- │
- └── RAG Retrieval
- │
- ▼
-LLM (OpenAI / Gemini)
- │
- ▼
-Answer
-```
-
----
-
 # Screenshots
 
 ## Main Dashboard
@@ -137,14 +107,6 @@ python -m venv .venv
 .venv\Scripts\activate
 ```
 
-### Linux / Mac
-
-```bash
-source .venv/bin/activate
-```
-
----
-
 ## Install Dependencies
 
 ```bash
@@ -186,14 +148,6 @@ Download:
 https://ffmpeg.org/download.html
 
 Add FFmpeg to PATH.
-
-Verify:
-
-```bash
-ffmpeg -version
-```
-
----
 
 ## Start Backend
 
@@ -240,8 +194,6 @@ http://localhost:3000
 ```
 
 ---
-
-# Usage
 
 ## Upload Video
 
